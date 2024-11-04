@@ -1,0 +1,11 @@
+spring:
+  h2:
+    console:
+      enabled: true
+  datasource:
+    url: jdbc:h2:mem:Inventory_Spare_Parts
+  rabbitmq:
+    host:localhost
+    port:5672
+    username:sa
+    password:password
